@@ -1,0 +1,30 @@
+.fivethSection {
+  height: 766px;
+  background: $main;
+
+  h2 {
+    margin: 0;
+    color: #242222;
+    font-family: Finlandica;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+
+    padding-top: 40px;
+  }
+
+  p {
+    margin: 0;
+    color: #000;
+    font-family: PT Sans;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+}
+.container {
+}

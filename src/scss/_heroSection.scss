@@ -1,0 +1,131 @@
+.heroSection {
+  background: $main;
+  // max-height: 783px;
+  height: 100vh; // это для scrolltrigger
+  // width: 1600px;
+}
+
+.nav {
+  padding-top: 39px;
+  width: 1197px;
+  height: 48px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+  display: inline-flex;
+}
+
+.header {
+  justify-content: flex-end;
+  align-items: center;
+  gap: 105px;
+  display: flex;
+}
+
+.dakeshi {
+  width: 128px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  display: inline-flex;
+}
+
+.dakeshiInc {
+  text-align: center;
+  color: $orange;
+  font-size: 20px;
+  font-family: $font-header;
+  font-weight: 700;
+  //   word-wrap: break-word;
+}
+.vector {
+  width: 117px;
+  height: 8px;
+  background: $orange;
+}
+
+.design,
+.academy,
+.analytic {
+  width: 128px;
+  color: $black;
+  font-size: 20px;
+  font-family: $font-header;
+  font-weight: 700;
+  //   word-wrap: break-word;
+}
+
+.contacts {
+  background: $blue;
+  width: 126px;
+  padding: 7px 20px;
+  font-family: $font-header;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 2px;
+  transition: background 0.5s, color 0.5s;
+}
+
+.contacts:hover {
+  cursor: pointer;
+  background: $black;
+  color: $main;
+}
+
+.gradients {
+  z-index: 1;
+
+  width: 69px;
+  height: 800px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+.gradient1 {
+  z-index: -1;
+
+  width: 501px;
+  height: 634px;
+  left: 534px;
+  top: 713px;
+  position: absolute;
+  transform: rotate(170deg);
+  transform-origin: 0 0;
+  background: linear-gradient(
+    180deg,
+    rgba(254.63, 255, 236.3, 0.62) 10%,
+    rgba(240, 77, 55, 0.54) 0%
+  );
+  filter: blur(200px);
+}
+.gradient2 {
+  z-index: -1;
+
+  width: 420px;
+  height: 541px;
+  left: 149px;
+  top: 213px;
+  position: absolute;
+  background: linear-gradient(
+    217deg,
+    rgba(43, 226, 240, 0.5) 0%,
+    rgba(48, 58, 255, 0.53) 100%
+  );
+  filter: blur(200px);
+}
+.gradient3 {
+  z-index: -1;
+
+  width: 529px;
+  height: 347px;
+  left: 25px;
+  top: 242px;
+  position: absolute;
+  background: linear-gradient(
+    180deg,
+    rgba(240, 77, 55, 0.39) 0%,
+    rgba(48, 58, 255, 0.63) 100%
+  );
+  filter: blur(200px);
+}

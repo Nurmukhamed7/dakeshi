@@ -1,0 +1,35 @@
+// Функционал при нажатии на Кейс
+
+.case1__hover {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  opacity: 0;
+}
+
+.look {
+  display: flex;
+  gap: 8px;
+  margin-left: 8px;
+}
+
+.case2__hover {
+  position: absolute;
+  top: 0;
+  left: 247px;
+  opacity: 0;
+}
+
+.case3__hover {
+  position: absolute;
+  top: 0;
+  left: 495px;
+  opacity: 0;
+}
+
+.case4__hover {
+  position: absolute;
+  top: 0;
+  left: 740px;
+  opacity: 0;
+}

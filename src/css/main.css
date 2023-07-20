@@ -1,0 +1,677 @@
+@import 'normalize.css';
+@import url("https://fonts.googleapis.com/css2?family=Finlandica:wght@500;700&family=PT+Sans:ital@0;1&display=swap");
+body {
+  font-family: "PT Sans", sans-serif;
+  color: #242222;
+  font-size: 16px;
+  overflow-x: hidden;
+  background: #f04d37;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.heroSection {
+  background: #ffffec;
+  height: 100vh;
+}
+
+.nav {
+  padding-top: 39px;
+  width: 1197px;
+  height: 48px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+  display: inline-flex;
+}
+
+.header {
+  justify-content: flex-end;
+  align-items: center;
+  gap: 105px;
+  display: flex;
+}
+
+.dakeshi {
+  width: 128px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  display: inline-flex;
+}
+
+.dakeshiInc {
+  text-align: center;
+  color: #f04d37;
+  font-size: 20px;
+  font-family: "Finlandica", sans-serif;
+  font-weight: 700;
+}
+
+.vector {
+  width: 117px;
+  height: 8px;
+  background: #f04d37;
+}
+
+.design,
+.academy,
+.analytic {
+  width: 128px;
+  color: #242222;
+  font-size: 20px;
+  font-family: "Finlandica", sans-serif;
+  font-weight: 700;
+}
+
+.contacts {
+  background: #2be2f0;
+  width: 126px;
+  padding: 7px 20px;
+  font-family: "Finlandica", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 2px;
+  transition: background 0.5s, color 0.5s;
+}
+
+.contacts:hover {
+  cursor: pointer;
+  background: #242222;
+  color: #ffffec;
+}
+
+.gradients {
+  z-index: 1;
+  width: 69px;
+  height: 800px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+
+.gradient1 {
+  z-index: -1;
+  width: 501px;
+  height: 634px;
+  left: 534px;
+  top: 713px;
+  position: absolute;
+  transform: rotate(170deg);
+  transform-origin: 0 0;
+  background: linear-gradient(180deg, rgba(255, 255, 236, 0.62) 10%, rgba(240, 77, 55, 0.54) 0%);
+  filter: blur(200px);
+}
+
+.gradient2 {
+  z-index: -1;
+  width: 420px;
+  height: 541px;
+  left: 149px;
+  top: 213px;
+  position: absolute;
+  background: linear-gradient(217deg, rgba(43, 226, 240, 0.5) 0%, rgba(48, 58, 255, 0.53) 100%);
+  filter: blur(200px);
+}
+
+.gradient3 {
+  z-index: -1;
+  width: 529px;
+  height: 347px;
+  left: 25px;
+  top: 242px;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(240, 77, 55, 0.39) 0%, rgba(48, 58, 255, 0.63) 100%);
+  filter: blur(200px);
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-content {
+  margin-top: 100px;
+  z-index: 10;
+}
+
+.header-heading {
+  font-weight: 700;
+  font-size: 80px;
+  font-family: "Finlandica", sans-serif;
+}
+
+.header-img {
+  position: relative;
+}
+
+.header-illustration {
+  position: relative;
+  z-index: 10;
+  width: 659px;
+}
+
+.dashes {
+  position: absolute;
+  right: 45px;
+  top: 85px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  cursor: url("../../public/images/cursor.svg"), auto;
+  position: relative;
+  z-index: 10;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-around;
+  background: #f04d37;
+}
+
+.section1 {
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+}
+.section1 h2 {
+  color: #ffffec;
+  font-family: Finlandica;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section2 {
+  width: 600px;
+}
+
+.section2__content {
+  color: #ffffec;
+  font-family: PT Sans;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section3 {
+  width: 600px;
+}
+
+.section3__content {
+  margin-bottom: 50px;
+  color: #ffffec;
+  font-family: PT Sans;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section4 {
+  width: 600px;
+}
+
+.section4__content {
+  margin-bottom: 50px;
+  color: #ffffec;
+  font-family: PT Sans;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.thirdSection {
+  height: 2700px;
+  background: #242222;
+}
+
+.ticker {
+  position: relative;
+  overflow: hidden;
+  padding-top: 136px;
+}
+
+.ticker-wrapper {
+  display: flex;
+}
+
+.ticker-wrapper-2 {
+  display: flex;
+}
+
+.ticker-item {
+  display: flex;
+  gap: 20px;
+  color: #2be2f0;
+  font-family: Finlandica;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0 10px;
+  animation: ticker 20s linear infinite;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateZ(0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+.ticker-item-2 {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  color: #2be2f0;
+  font-family: Finlandica;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0 10px;
+  animation: ticker2 20s linear infinite;
+}
+
+@keyframes ticker2 {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    transform: translateZ(0);
+  }
+}
+.thirdSection__heading {
+  text-align: center;
+  color: #ffffec;
+  font-weight: 700;
+  font-size: 80px;
+  font-family: "Finlandica", sans-serif;
+  margin-top: 100px;
+}
+
+.card,
+.header3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header3 {
+  text-align: center;
+  width: 100%;
+  padding-top: 50px;
+  color: #ffffec;
+  font-family: Finlandica;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cards {
+  width: 100%;
+  height: 555px;
+}
+
+.card {
+  position: absolute;
+  width: 100%;
+  height: 555px;
+  border: 3px solid #ffffec;
+  border-radius: 12px;
+  box-sizing: border-box;
+  background: #242222;
+}
+
+.card__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+}
+
+.card__gradient1 {
+  width: 248px;
+  height: 200px;
+  left: 160px;
+  top: 100px;
+  position: absolute;
+  background: linear-gradient(217deg, #f04d37 30%, rgba(48, 58, 255, 0.45) 90%);
+  filter: blur(70px);
+}
+
+.card__gradient2 {
+  width: 248px;
+  height: 200px;
+  left: 50px;
+  top: 250px;
+  position: absolute;
+  background: linear-gradient(217deg, rgba(43, 226, 240, 0.36) 30%, rgba(48, 58, 255, 0.45) 20%);
+  filter: blur(70px);
+}
+
+.card__img {
+  position: relative;
+}
+.card__content h4 {
+  color: #ffffec;
+  font-family: Finlandica;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+.card__content p {
+  width: 590px;
+  color: #ffffec;
+  font-family: PT Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card__number {
+  right: 30px;
+  bottom: 20px;
+  position: absolute;
+  font-size: 20px;
+  font-family: Finlandica;
+  font-weight: 700;
+}
+
+.fourthSection {
+  height: 766px;
+  background: #ffffec;
+}
+.fourthSection h2 {
+  margin: 0;
+  color: #242222;
+  font-family: Finlandica;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+.fourthSection h4 {
+  margin: 0;
+  color: #242222;
+  font-family: Finlandica;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.fourthSection p {
+  color: #242222;
+  font-family: PT Sans;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.frame3 {
+  width: 1198px;
+  height: 447px;
+  display: flex;
+  align-items: center;
+}
+
+.frame7 {
+  width: 1061px;
+  height: 447px;
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  float: left;
+  margin: 0 auto;
+  position: relative;
+}
+
+.easyLife {
+  width: 253px;
+  height: 447px;
+  bottom: 0;
+  background: #f04d37;
+  border-radius: 20px;
+}
+
+.alanyaInternational {
+  width: 253px;
+  height: 447px;
+  bottom: 0;
+  background: #f04d37;
+  border-radius: 20px;
+}
+
+.favoriteMotors {
+  width: 253px;
+  height: 447px;
+  bottom: 0;
+  background: #f04d37;
+  border-radius: 20px;
+}
+
+.rectangle5 {
+  width: 253px;
+  height: 447px;
+  bottom: 0;
+  background: #f04d37;
+  border-radius: 20px;
+}
+
+.easyLife:hover {
+  width: 356px;
+  height: 351px;
+}
+
+.alanyaInternational:hover {
+  width: 356px;
+  height: 351px;
+}
+
+.favoriteMotors:hover {
+  width: 356px;
+  height: 351px;
+}
+
+.rectangle5:hover {
+  width: 356px;
+  height: 351px;
+}
+
+.case1__hover {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  opacity: 0;
+}
+
+.look {
+  display: flex;
+  gap: 8px;
+  margin-left: 8px;
+}
+
+.case2__hover {
+  position: absolute;
+  top: 0;
+  left: 247px;
+  opacity: 0;
+}
+
+.case3__hover {
+  position: absolute;
+  top: 0;
+  left: 495px;
+  opacity: 0;
+}
+
+.case4__hover {
+  position: absolute;
+  top: 0;
+  left: 740px;
+  opacity: 0;
+}
+
+.fivethSection {
+  height: 766px;
+  background: #ffffec;
+}
+.fivethSection h2 {
+  margin: 0;
+  color: #242222;
+  font-family: Finlandica;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding-top: 40px;
+}
+.fivethSection p {
+  margin: 0;
+  color: #000;
+  font-family: PT Sans;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.team-wrapper {
+  max-width: 890px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.team-wrapper h4,
+.team-wrapper h5 {
+  margin: 0;
+}
+
+.member {
+  max-width: 185px;
+}
+
+.member__img {
+  width: 185px;
+  height: 154px;
+  border-radius: 20px;
+  background: red;
+}
+
+.member__name {
+  font-family: Finlandica;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.member__job {
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.footer {
+  background: #242222;
+  font-family: "Finlandica", sans-serif;
+  height: 1100px;
+}
+
+.black {
+  width: 100vw;
+  height: 480px;
+  position: relative;
+}
+.black h3 {
+  z-index: 10;
+  margin: 0;
+  padding-top: 100px;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.black h2 {
+  z-index: 10;
+  margin: 0;
+  font-size: 75px;
+  color: #fff;
+}
+
+.footer__img {
+  position: absolute;
+  bottom: -400px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+a {
+  z-index: 10;
+  position: absolute;
+  bottom: -250px;
+  right: 200px;
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+  opacity: 0;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: black;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  color: white;
+}
+
+a:hover::after {
+  background-color: transparent;
+}
+
+.blue {
+  background: #2be2f0;
+  width: 100vw;
+  height: 80vh;
+}/*# sourceMappingURL=main.css.map */

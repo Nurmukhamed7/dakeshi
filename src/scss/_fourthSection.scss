@@ -1,0 +1,108 @@
+.fourthSection {
+  height: 766px;
+  background: $main;
+
+  h2 {
+    margin: 0;
+    color: #242222;
+    font-family: Finlandica;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+  h4 {
+    margin: 0;
+    color: #242222;
+    font-family: Finlandica;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: #242222;
+    font-family: PT Sans;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+.container {
+}
+
+.frame3 {
+  width: 1198px;
+  height: 447px;
+  display: flex;
+  align-items: center;
+}
+
+.frame7 {
+  width: 1061px;
+  height: 447px;
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  float: left;
+  margin: 0 auto;
+  position: relative;
+}
+
+.easyLife {
+  width: 253px;
+  height: 447px;
+  bottom: 0;
+  background: #f04d37;
+  border-radius: 20px;
+}
+
+.alanyaInternational {
+  width: 253px;
+  height: 447px;
+  bottom: 0;
+  background: #f04d37;
+  border-radius: 20px;
+}
+
+.favoriteMotors {
+  width: 253px;
+  height: 447px;
+  bottom: 0;
+  background: #f04d37;
+  border-radius: 20px;
+}
+
+.rectangle5 {
+  width: 253px;
+  height: 447px;
+  bottom: 0;
+  background: #f04d37;
+  border-radius: 20px;
+}
+
+.easyLife:hover {
+  width: 356px;
+  height: 351px;
+}
+
+.alanyaInternational:hover {
+  width: 356px;
+  height: 351px;
+}
+
+.favoriteMotors:hover {
+  width: 356px;
+  height: 351px;
+}
+
+.rectangle5:hover {
+  width: 356px;
+  height: 351px;
+}

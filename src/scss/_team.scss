@@ -1,0 +1,37 @@
+// КОМАНДА
+
+.team-wrapper {
+  max-width: 890px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+
+  h4,
+  h5 {
+    margin: 0;
+  }
+}
+.member {
+  max-width: 185px;
+}
+.member__img {
+  width: 185px;
+  height: 154px;
+  border-radius: 20px;
+  background: red;
+}
+.member__name {
+  font-family: Finlandica;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+.member__job {
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}

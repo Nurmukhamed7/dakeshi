@@ -1,0 +1,26 @@
+// Base
+@import 'normalize.css';
+@import './variables';
+@import './base';
+
+// Hero Block
+@import './heroSection';
+@import './header';
+
+// 2nd Section
+@import './secondSection';
+
+// 3rd Section
+@import './thirdSection';
+@import './cards';
+
+// 4th Section
+@import './fourthSection';
+@import './caseHover';
+
+// 5th Section
+@import './fivethSection';
+@import './team';
+
+// Footer
+@import './footer';

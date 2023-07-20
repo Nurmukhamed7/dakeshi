@@ -1,0 +1,35 @@
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  // align-items: center;
+  // column-gap: 30px;
+  //   background: red;
+}
+.header-content {
+  // max-width: 592px;
+  margin-top: 100px;
+  z-index: 10;
+}
+
+.header-heading {
+  font-weight: 700;
+  font-size: 80px;
+  font-family: $font-header;
+  //   word-wrap: break-word;
+}
+
+.header-img {
+  position: relative;
+}
+
+.header-illustration {
+  position: relative;
+  z-index: 10;
+  width: 659px;
+}
+
+.dashes {
+  position: absolute;
+  right: 45px;
+  top: 85px;
+}
