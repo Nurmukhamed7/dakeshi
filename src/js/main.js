@@ -164,7 +164,7 @@ const tl7 = gsap.timeline({
     scrub: 1,
     start: 'top center-=200',
     end: 'top center-=300',
-    markers: true,
+    // markers: true,
   },
 })
 
