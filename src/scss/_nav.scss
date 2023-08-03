@@ -1,0 +1,75 @@
+.nav {
+}
+.nav-list {
+	padding: 0;
+	display: flex;
+	align-items: center;
+	gap: 105px;
+
+	font-family: Finlandica;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: normal;
+}
+.nav-item {
+}
+
+.nav-item:nth-child(1) {
+	color: $orange;
+	position: relative;
+}
+
+.nav-item:nth-child(1)::after {
+	content: url('/public/images/BRUSH STROKE.svg');
+	position: absolute;
+	bottom: -15px;
+	left: 0;
+}
+
+.nav-link {
+}
+
+.nav-link.active {
+	color: $orange;
+}
+
+.nav-button {
+	display: none;
+	cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+	.nav-list {
+		display: none;
+		margin: 0;
+		align-items: end;
+		text-align: right;
+	}
+
+	.nav-button {
+		display: block;
+	}
+
+	.nav.open .nav-list {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: $main;
+
+		z-index: 2;
+
+		padding: 28px 38px;
+		display: flex;
+		flex-direction: column;
+		row-gap: 24px;
+	}
+
+	.nav-button {
+		position: fixed;
+		z-index: 9;
+		top: 32px;
+		left: 30px;
+	}
+}

@@ -1,43 +1,43 @@
 .footer {
-  background: #242222;
-  font-family: 'Finlandica', sans-serif;
-  height: 1100px;
+	background: #242222;
+	font-family: 'Finlandica', sans-serif;
+	height: 1100px;
 }
 
 .black {
-  width: 100vw;
-  height: 480px;
-  position: relative;
+	width: 100vw;
+	height: 480px;
+	position: relative;
 
-  h3 {
-    z-index: 10;
-    margin: 0;
-    padding-top: 100px;
-    font-size: 40px;
-    color: #fff;
-    margin-bottom: 12px;
-  }
+	h3 {
+		z-index: 10;
+		margin: 0;
+		padding-top: 100px;
+		font-size: 40px;
+		color: #fff;
+		margin-bottom: 12px;
+	}
 
-  h2 {
-    z-index: 10;
-    margin: 0;
-    font-size: 75px;
-    color: #fff;
-  }
+	h2 {
+		z-index: 10;
+		margin: 0;
+		font-size: 75px;
+		color: #fff;
+	}
 }
 .text1 {
 }
 .text2 {
 }
 .footer__img {
-  position: absolute;
-  bottom: -400px;
-  right: 0;
-  left: 0;
-  margin: 0 auto;
+	position: absolute;
+	bottom: -400px;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
 }
 
-a {
+/* a {
   z-index: 10;
   position: absolute;
   bottom: -250px;
@@ -68,10 +68,10 @@ a:hover {
 
 a:hover::after {
   background-color: transparent;
-}
+} */
 
 .blue {
-  background: #2be2f0;
-  width: 100vw;
-  height: 80vh;
+	background: #2be2f0;
+	width: 100vw;
+	height: 80vh;
 }

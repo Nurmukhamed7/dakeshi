@@ -1,9 +1,11 @@
 // Base
+@import './reset';
 @import 'normalize.css';
 @import './variables';
 @import './base';
 
 // Hero Block
+@import './_nav.scss';
 @import './heroSection';
 @import './header';
 
