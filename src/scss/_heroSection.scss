@@ -3,3 +3,9 @@
 	// max-height: 783px;
 	height: 100vh; // это для scrolltrigger
 }
+
+@media (max-width: 480px) {
+	.heroSection {
+		overflow-x: hidden;
+	}
+}
